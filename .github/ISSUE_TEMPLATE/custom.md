@@ -1,3 +1,5 @@
+---
+
 name: Issue Report
 description: File an issue report
 title: "[Issue]: "
@@ -59,3 +61,5 @@ body:
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
+
+---
