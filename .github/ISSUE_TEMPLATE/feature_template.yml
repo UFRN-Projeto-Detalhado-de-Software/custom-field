@@ -7,20 +7,15 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this feature report!
-  - type: dropdown
-    id: issue_estimation
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: contact
     attributes:
-      label: Estimative (hours)
-      description: How much hours do you estimate to finish this issue?
-    options:
-      - 1 hour
-      - 2 hours
-      - 3 hours
-      - 5 hours
-      - 8 hours
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
     validations:
-      required: true
+      required: false
   - type: textarea
     id: what-happened
     attributes:
