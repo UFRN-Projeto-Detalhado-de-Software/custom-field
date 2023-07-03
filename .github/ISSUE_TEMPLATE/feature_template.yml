@@ -12,12 +12,12 @@ body:
     attributes:
       label: Estimative (hours)
       description: How much hours do you estimate to finish this issue?
-    options:
-      - 1 hour
-      - 2 hours
-      - 3 hours
-      - 5 hours
-      - 8 hours
+      options:
+        - 1 hour
+        - 2 hours
+        - 3 hours
+        - 5 hours
+        - 8 hours
     validations:
       required: true
   - type: textarea
