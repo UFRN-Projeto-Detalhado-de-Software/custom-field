@@ -1,6 +1,5 @@
 name: Tarefa
 description: File a feature report
-title: ""
 body:
   - type: textarea
     id: issue_description
