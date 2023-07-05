@@ -1,50 +1,44 @@
-name: Issue Report
+name: Tarefa
 description: File a feature report
-title: "Issue Title"
+title: ""
 body:
   - type: textarea
     id: issue_description
     attributes:
-      label: Description
-      description: Please, describe the issue.
+      label: Descrição
+      description: Por favor, descreva a tarefa.
     validations:
       required: true
   - type: dropdown
     id: issue_estimation
     attributes:
-      label: Estimative (hours)
-      description: How much hours do you estimate to finish this issue?
+      label: Estimativa (horas)
+      description: Quantas horas você estima para terminar esta tarefa?
       options:
-        - 1 hour
-        - 2 hours
-        - 3 hours
-        - 5 hours
-        - 8 hours
+        - 1 hora
+        - 2 horas
+        - 3 horas
+        - 5 horas
+        - 8 horas
     validations:
       required: true
   - type: dropdown
     id: issue_complexity
     attributes:
-      label: Complexity
-      description: How complex is this issue?
+      label: Complexidade
+      description: Quão complexa é esta tarefa?
       options:
-        - Low
-        - Medium
-        - High
+        - Baixa
+        - Média
+        - Alta
     validations:
       required: true
   - type: dropdown
     id: issue_quality
     attributes:
-      label: Quality
-      description: With what quality was this issue solved?
+      label: Qualidade
+      description: Com que qualidade essa tarefa foi resolvida?
       options:
-        - Low
-        - Medium
-        - High
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
+        - Baixa
+        - Média
+        - Alta
