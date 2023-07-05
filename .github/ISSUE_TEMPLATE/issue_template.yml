@@ -1,4 +1,4 @@
-dename: Tarefa
+name: Tarefa
 description: Criar uma nova tarefa
 body:
   - type: textarea
