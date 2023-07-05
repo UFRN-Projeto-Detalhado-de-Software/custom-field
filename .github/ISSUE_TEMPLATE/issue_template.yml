@@ -1,4 +1,4 @@
-name: Tarefa
+dename: Tarefa
 description: Criar uma nova tarefa
 body:
   - type: textarea
@@ -44,6 +44,9 @@ body:
   - type: markdown
     attributes:
       value: "## Ao concluir esta tarefa, responda:"
+  - type: markdown
+    attributes:
+      value: "Responda a questão abaixo se você *não* conseguiu terminar a tarefa."
   - type: input
     attributes:
-      label: "Se você *não* conseguiu terminar esta tarefa, por quê?"
+      label: "Por quê você não conseguiu termina-la?"
