@@ -46,5 +46,5 @@ body:
       value: "## Ao concluir esta tarefa, responda:"
   - type: textarea
     attributes:
-      label: "Por quê você **não** conseguiu terminar esta tarefa?"
+      label: "Por quê você não conseguiu terminar esta tarefa?"
       description: "Responda apenas se você **não** conseguiu terminar esta tarefa."
