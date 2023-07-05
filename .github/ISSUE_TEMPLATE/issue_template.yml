@@ -20,6 +20,28 @@ body:
         - 8 hours
     validations:
       required: true
+  - type: dropdown
+    id: issue_complexity
+    attributes:
+      label: Complexity
+      description: How complex is this issue?
+      options:
+        - Low
+        - Medium
+        - High
+    validations:
+      required: true
+  - type: dropdown
+    id: issue_quality
+    attributes:
+      label: Quality
+      description: With what quality was this issue solved?
+      options:
+        - Low
+        - Medium
+        - High
+    validations:
+      required: false
   - type: textarea
     id: what-happened
     attributes:
