@@ -43,8 +43,7 @@ body:
         - Alta
   - type: markdown
     attributes:
-      value: "## Por favor, ao concluir esta tarefa, responda as questões abaixo."
-  - type: markdown
+      value: "## Ao concluir esta tarefa, responda:"
+  - type: input
     attributes:
-      value: |
-        Thanks for taking the time to fill out this bug! If you need real-time help, join us on Discord.
+      label: "Se você *não* conseguiu terminar esta tarefa, por quê?"
