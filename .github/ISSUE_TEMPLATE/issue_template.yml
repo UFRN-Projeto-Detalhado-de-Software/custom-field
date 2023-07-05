@@ -41,3 +41,10 @@ body:
         - Baixa
         - Média
         - Alta
+  - type: markdown
+    attributes:
+      value: "## Por favor, ao concluir esta tarefa, responda as questões abaixo."
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug! If you need real-time help, join us on Discord.
