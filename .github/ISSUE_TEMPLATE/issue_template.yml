@@ -1,5 +1,5 @@
 name: Tarefa
-description: File a feature report
+description: Criar uma nova tarefa
 body:
   - type: textarea
     id: issue_description
