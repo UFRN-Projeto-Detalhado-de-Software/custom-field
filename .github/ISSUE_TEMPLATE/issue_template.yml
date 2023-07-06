@@ -34,8 +34,10 @@ body:
       required: true
   - type: markdown
     attributes:
-      value: "## Métricas de Qualidade |
-      ### O membro da equipe de qualidade que validar e verificar esta tarefa deve responder às questões a seguir."
+      value: "## Métricas de Qualidade"
+  - type: markdown
+    attributes:
+      value: "### O membro da equipe de qualidade que validar e verificar esta tarefa deve responder às questões a seguir."    
   - type: dropdown
     id: issue_legilibility
     attributes:
