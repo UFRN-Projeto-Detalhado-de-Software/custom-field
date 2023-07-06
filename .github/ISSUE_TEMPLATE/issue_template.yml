@@ -32,15 +32,45 @@ body:
         - Alta
     validations:
       required: true
-  - type: dropdown
-    id: issue_quality
+  - type: markdown
     attributes:
-      label: Qualidade
-      description: Com que qualidade essa tarefa foi resolvida?
+      value: "## Para a equipe de qualidade"
+  - type: dropdown
+    id: issue_legilibility
+    attributes:
+      label: Legilibidade
+      description: O código escrito para resolver esta tarefa está legível? O código deve ser fácil de ler e entender, ter sintaxe clara, sem abreviações confusas e com um estilo de codificação consistente.
       options:
         - Baixa
         - Média
         - Alta
+  - type: dropdown
+    id: issue_simplicity
+    attributes:
+      label: Simplicidade
+      description: O código escrito para resolver esta tarefa está simples e conciso?
+      options:
+        - Baixa
+        - Média
+        - Alta
+  - type: dropdown
+      id: issue_modularity
+      attributes:
+        label: Modularidade
+        description: O código escrito para resolver esta tarefa está dividido em módulos ou funções independentes? Cada função ou módulo deve ter uma responsabilidade clara e bem definida.
+        options:
+          - Baixa
+          - Média
+          - Alta
+  - type: dropdown
+      id: issue_confiability
+      attributes:
+        label: Confiabilidade
+        description: O código escrito para resolver esta tarefa lida adequadamente com erros e exceções? As exceções devem retornar mensagens claras e informativas quando ocorrerem.
+        options:
+          - Baixa
+          - Média
+          - Alta        
   - type: markdown
     attributes:
       value: "## Ao concluir esta tarefa, responda:"
