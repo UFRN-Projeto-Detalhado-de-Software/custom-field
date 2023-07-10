@@ -81,6 +81,12 @@ body:
     attributes:
       value: "## Ao concluir o desenvolvimento desta tarefa, responda:"
   - type: textarea
+    id: issue_not_finished_cause
     attributes:
       label: "Você terminou esta tarefa? Se não, por quê?"
       description: "Responda apenas se você **não** conseguiu terminar esta tarefa."
+  - type: input
+    id: issue_emotions_affection
+    attributes:
+      label: Afeto
+      description: Informe uma escala de 1 a 5 o quão fortemente sentiu esta emoção enquanto desenvolvia a tarefa. 1 = "Não senti", 5 = "Muito forte"
