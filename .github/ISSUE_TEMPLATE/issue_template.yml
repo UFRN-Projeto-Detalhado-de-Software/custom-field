@@ -89,10 +89,10 @@ body:
     attributes:
       value: "### Emoções"
   - type: dropdown
-    id: issue_emotions_affection
+    id: issue_emotions_love
     attributes:
-      label: Afeto
-      description: Até que ponto você experimentou sentimentos de afeto enquanto resolvia este problema?
+      label: Amor
+      description: Até que ponto você experimentou sentimentos de amor enquanto resolvia este problema?
       options:
         - Nem um pouco
         - Ligeiramente
@@ -103,7 +103,7 @@ body:
     id: issue_emotions_joy
     attributes:
       label: Alegria
-      description: Até que ponto você experimentou sentimentos de otimismo enquanto resolvia este problema?
+      description: Até que ponto você experimentou sentimentos de alegria enquanto resolvia este problema?
       options:
         - Nem um pouco
         - Ligeiramente
@@ -111,40 +111,7 @@ body:
         - Bastante
         - Extremamente
   - type: dropdown
-    id: issue_emotions_optimism
-    attributes:
-      label: Otimismo
-      description: Até que ponto você experimentou sentimentos de otimismo enquanto resolvia este problema?
-      options:
-        - Nem um pouco
-        - Ligeiramente
-        - Moderadamente
-        - Bastante
-        - Extremamente
-  - type: dropdown
-    id: issue_emotions_zest
-    attributes:
-      label: Entusiasmo
-      description: Até que ponto você experimentou sentimentos de entusiasmo enquanto resolvia este problema?
-      options:
-        - Nem um pouco
-        - Ligeiramente
-        - Moderadamente
-        - Bastante
-        - Extremamente
-  - type: dropdown
-    id: issue_emotions_irritation
-    attributes:
-      label: Irritação
-      description: Até que ponto você experimentou sentimentos de irritação enquanto resolvia este problema?
-      options:
-        - Nem um pouco
-        - Ligeiramente
-        - Moderadamente
-        - Bastante
-        - Extremamente
-  - type: dropdown
-    id: issue_emotions_rage
+    id: issue_emotions_anger
     attributes:
       label: Raiva
       description: Até que ponto você experimentou sentimentos de raiva enquanto resolvia este problema?
@@ -166,10 +133,10 @@ body:
         - Bastante
         - Extremamente
   - type: dropdown
-    id: issue_emotions_nervousness
+    id: issue_emotions_fear
     attributes:
-      label: Nervosismo
-      description: Até que ponto você experimentou sentimentos de nervosismo enquanto resolvia este problema?
+      label: Medo
+      description: Até que ponto você experimentou sentimentos de medo enquanto resolvia este problema?
       options:
         - Nem um pouco
         - Ligeiramente
