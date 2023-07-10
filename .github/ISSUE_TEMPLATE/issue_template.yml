@@ -1,5 +1,6 @@
 name: Tarefa
 description: Criar uma nova tarefa
+labels: ['enhancement']
 body:
   - type: textarea
     id: issue_description
@@ -62,6 +63,7 @@ body:
       label: Modularidade
       description: O código escrito para resolver esta tarefa está dividido em módulos ou funções independentes? Cada função ou módulo deve ter uma responsabilidade clara e bem definida.
       options:
+        - Não se aplica
         - Baixa
         - Média
         - Alta
@@ -71,12 +73,13 @@ body:
       label: Confiabilidade
       description: O código escrito para resolver esta tarefa lida adequadamente com erros e exceções? As exceções devem retornar mensagens claras e informativas quando ocorrerem.
       options:
+        - Não se aplica
         - Baixa
         - Média
         - Alta        
   - type: markdown
     attributes:
-      value: "## Ao concluir esta tarefa, responda:"
+      value: "## Ao concluir o desenvolvimento desta tarefa, responda:"
   - type: textarea
     attributes:
       label: "Você terminou esta tarefa? Se não, por quê?"
