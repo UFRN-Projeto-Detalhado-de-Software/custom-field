@@ -85,8 +85,46 @@ body:
     attributes:
       label: "Você terminou esta tarefa? Se não, por quê?"
       description: "Responda apenas se você **não** conseguiu terminar esta tarefa."
+  - type: markdown
+    attributes:
+      value: "### Emoções"
   - type: input
     id: issue_emotions_affection
     attributes:
       label: Afeto
+      description: Informe uma escala de 1 a 5 o quão fortemente sentiu esta emoção enquanto desenvolvia a tarefa. 1 = "Não senti", 5 = "Muito forte"
+  - type: input
+    id: issue_emotions_joy
+    attributes:
+      label: Alegria
+      description: Informe uma escala de 1 a 5 o quão fortemente sentiu esta emoção enquanto desenvolvia a tarefa. 1 = "Não senti", 5 = "Muito forte"
+  - type: input
+    id: issue_emotions_optimism
+    attributes:
+      label: Otimismo
+      description: Informe uma escala de 1 a 5 o quão fortemente sentiu esta emoção enquanto desenvolvia a tarefa. 1 = "Não senti", 5 = "Muito forte"
+  - type: input
+    id: issue_emotions_zest
+    attributes:
+      label: Entusiasmo
+      description: Informe uma escala de 1 a 5 o quão fortemente sentiu esta emoção enquanto desenvolvia a tarefa. 1 = "Não senti", 5 = "Muito forte"
+  - type: input
+    id: issue_emotions_irritation
+    attributes:
+      label: Irritação
+      description: Informe uma escala de 1 a 5 o quão fortemente sentiu esta emoção enquanto desenvolvia a tarefa. 1 = "Não senti", 5 = "Muito forte"
+  - type: input
+    id: issue_emotions_rage
+    attributes:
+      label: Raiva
+      description: Informe uma escala de 1 a 5 o quão fortemente sentiu esta emoção enquanto desenvolvia a tarefa. 1 = "Não senti", 5 = "Muito forte"
+  - type: input
+    id: issue_emotions_sadness
+    attributes:
+      label: Tristeza
+      description: Informe uma escala de 1 a 5 o quão fortemente sentiu esta emoção enquanto desenvolvia a tarefa. 1 = "Não senti", 5 = "Muito forte"
+  - type: input
+    id: issue_emotions_nervousness
+    attributes:
+      label: Nervosismo
       description: Informe uma escala de 1 a 5 o quão fortemente sentiu esta emoção enquanto desenvolvia a tarefa. 1 = "Não senti", 5 = "Muito forte"
