@@ -99,6 +99,8 @@ body:
         - Moderadamente
         - Bastante
         - Extremamente
+    validations:
+      required: true
   - type: dropdown
     id: issue_emotions_joy
     attributes:
@@ -110,6 +112,8 @@ body:
         - Moderadamente
         - Bastante
         - Extremamente
+    validations:
+      required: true
   - type: dropdown
     id: issue_emotions_anger
     attributes:
@@ -121,6 +125,8 @@ body:
         - Moderadamente
         - Bastante
         - Extremamente
+    validations:
+      required: true
   - type: dropdown
     id: issue_emotions_sadness
     attributes:
@@ -132,6 +138,8 @@ body:
         - Moderadamente
         - Bastante
         - Extremamente
+    validations:
+      required: true
   - type: dropdown
     id: issue_emotions_fear
     attributes:
@@ -143,3 +151,5 @@ body:
         - Moderadamente
         - Bastante
         - Extremamente
+    validations:
+      required: true
