@@ -43,12 +43,12 @@ body:
       description: "Responda apenas se você **não** conseguiu terminar esta tarefa."
   - type: markdown
     attributes:
-      value: "### Emoções"
+      value: "### Emoções | ## Baseado na estrutura de emoções de Shaver et al. (acesso em https://doi.org/10.1037//0022-3514.52.6.1061)"
   - type: dropdown
     id: issue_emotions_love
     attributes:
       label: Amor
-      description: "Até que ponto você experimentou sentimentos de amor enquanto resolvia este problema? Sentimentos relacionados ao amor: compaixão, carinho, afeto e excitação."
+      description: "Até que ponto você experimentou sentimentos de amor enquanto resolvia este problema? Exemplos de sentimentos relacionados ao amor: compaixão, carinho, afeto e excitação."
       options:
         - Nem um pouco
         - Ligeiramente
@@ -61,7 +61,7 @@ body:
     id: issue_emotions_joy
     attributes:
       label: Alegria
-      description: Até que ponto você experimentou sentimentos de alegria enquanto resolvia este problema?
+      description: "Até que ponto você experimentou sentimentos de alegria enquanto resolvia este problema? Exemplos de sentimentos relacionados a alegria: felicidade, satisfação, prazer, euforia, entusiasmo, otimismo e orgulho."
       options:
         - Nem um pouco
         - Ligeiramente
@@ -74,7 +74,7 @@ body:
     id: issue_emotions_anger
     attributes:
       label: Raiva
-      description: Até que ponto você experimentou sentimentos de raiva enquanto resolvia este problema?
+      description: "Até que ponto você experimentou sentimentos de raiva enquanto resolvia este problema? Exemplos de sentimentos relationados a raiva: agitação, frustração, ódio, indignação e inveja."
       options:
         - Nem um pouco
         - Ligeiramente
@@ -87,7 +87,7 @@ body:
     id: issue_emotions_sadness
     attributes:
       label: Tristeza
-      description: Até que ponto você experimentou sentimentos de tristeza enquanto resolvia este problema?
+      description: "Até que ponto você experimentou sentimentos de tristeza enquanto resolvia este problema? Exemplos de sentimentos relationados a tristeza: angústia, tristeza, depressão, vergonha e insegurança."
       options:
         - Nem um pouco
         - Ligeiramente
@@ -100,7 +100,7 @@ body:
     id: issue_emotions_fear
     attributes:
       label: Medo
-      description: Até que ponto você experimentou sentimentos de medo enquanto resolvia este problema?
+      description: "Até que ponto você experimentou sentimentos de medo enquanto resolvia este problema? Exemplos de sentimentos relationados ao medo: susto, pânico, nervosismo, ansiedade, aflição, preocupação e apreensão."
       options:
         - Nem um pouco
         - Ligeiramente
