@@ -21,6 +21,14 @@ body:
       value: "## Métricas de Qualidade"
   - type: markdown
     attributes:
+      value: "### Considere as seguintes orientações durante a verificação."
+  - type: markdown
+    attributes:
+      value: "* Todas as declarações não utilizadas devem ser removidas
+      * Os nomes para variáveis, parâmetros, métodos, classes, etc, devem seguir uma convenção
+      * Se um mesmo trecho de código está sendo usado mais de uma vez, deve se extrair um método ou função"
+  - type: markdown
+    attributes:
       value: "### O membro da equipe de qualidade que validar e verificar esta tarefa deve responder às questões a seguir."
   - type: dropdown
     id: issue_legilibility
@@ -60,3 +68,12 @@ body:
         - 2 - Baixa
         - 3 - Média
         - 4 - Alta
+  - type: dropdown
+    id: issue_overall_quality
+    attributes:
+      label: Qualidade Geral
+      description: "Qual a qualidade geral da tarefa ou bug verificado? Indique 1 para qualidade Baixa, 2 para qualidade Média, 3 para qualidade Alta."
+      options:
+        - 1 - Baixa
+        - 2 - Média
+        - 3 - Alta
