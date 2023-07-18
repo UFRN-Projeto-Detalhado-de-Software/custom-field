@@ -13,7 +13,7 @@ body:
     id: issue_estimation
     attributes:
       label: Estimativa (horas)
-      description: Quantas horas você estima para terminar esta tarefa?
+      description: Quantas horas você estima para terminar esta tarefa? Escolha entre 1, 2, 3, 5 e 8 horas.
       options:
         - 1 hora
         - 2 horas
@@ -26,11 +26,11 @@ body:
     id: issue_complexity
     attributes:
       label: Complexidade
-      description: Quão complexa é esta tarefa?
+      description: Quão complexa é esta tarefa? Escolha 1 para Baixa, 2 para Média e 3 para Alta.
       options:
-        - Baixa
-        - Média
-        - Alta
+        - 1 - Baixa
+        - 2 - Média
+        - 3 - Alta
     validations:
       required: true
   - type: markdown
@@ -51,64 +51,64 @@ body:
     id: issue_emotions_love
     attributes:
       label: Amor
-      description: "Até que ponto você experimentou sentimentos de **amor** enquanto resolvia este problema? Exemplos de sentimentos relacionados ao amor: **compaixão**, **carinho**, **afeto** e **excitação**."
+      description: "Até que ponto você experimentou sentimentos de **amor** enquanto resolvia este problema? Exemplos de sentimentos relacionados ao amor: **compaixão**, **carinho**, **afeto** e **excitação**. Escolha 1 para 'Nem um pouco', 2 para 'Ligeiramente', 3 para 'Moderadamente', 4 para 'Bastante' e 5 para 'Extremamente'."
       options:
-        - Nem um pouco
-        - Ligeiramente
-        - Moderadamente
-        - Bastante
-        - Extremamente
+        - 1 - Nem um pouco
+        - 2 - Ligeiramente
+        - 3 - Moderadamente
+        - 4 - Bastante
+        - 5 - Extremamente
     validations:
       required: true
   - type: dropdown
     id: issue_emotions_joy
     attributes:
       label: Alegria
-      description: "Até que ponto você experimentou sentimentos de **alegria** enquanto resolvia este problema? Exemplos de sentimentos relacionados a alegria: **felicidade**, **satisfação**, **prazer**, **euforia**, **entusiasmo**, **otimismo** e **orgulho**."
+      description: "Até que ponto você experimentou sentimentos de **alegria** enquanto resolvia este problema? Exemplos de sentimentos relacionados a alegria: **felicidade**, **satisfação**, **prazer**, **euforia**, **entusiasmo**, **otimismo** e **orgulho**. Escolha 1 para 'Nem um pouco', 2 para 'Ligeiramente', 3 para 'Moderadamente', 4 para 'Bastante' e 5 para 'Extremamente'."
       options:
-        - Nem um pouco
-        - Ligeiramente
-        - Moderadamente
-        - Bastante
-        - Extremamente
+        - 1 - Nem um pouco
+        - 2 - Ligeiramente
+        - 3 - Moderadamente
+        - 4 - Bastante
+        - 5 - Extremamente
     validations:
       required: true
   - type: dropdown
     id: issue_emotions_anger
     attributes:
       label: Raiva
-      description: "Até que ponto você experimentou sentimentos de **raiva** enquanto resolvia este problema? Exemplos de sentimentos relationados a raiva: **agitação**, **frustração**, **ódio**, **indignação** e **inveja**."
+      description: "Até que ponto você experimentou sentimentos de **raiva** enquanto resolvia este problema? Exemplos de sentimentos relationados a raiva: **agitação**, **frustração**, **ódio**, **indignação** e **inveja**. Escolha 1 para 'Nem um pouco', 2 para 'Ligeiramente', 3 para 'Moderadamente', 4 para 'Bastante' e 5 para 'Extremamente'."
       options:
-        - Nem um pouco
-        - Ligeiramente
-        - Moderadamente
-        - Bastante
-        - Extremamente
+        - 1 - Nem um pouco
+        - 2 - Ligeiramente
+        - 3 - Moderadamente
+        - 4 - Bastante
+        - 5 - Extremamente
     validations:
       required: true
   - type: dropdown
     id: issue_emotions_sadness
     attributes:
       label: Tristeza
-      description: "Até que ponto você experimentou sentimentos de **tristeza** enquanto resolvia este problema? Exemplos de sentimentos relationados a tristeza: **angústia**, **tristeza**, **depressão**, **vergonha** e **insegurança**."
+      description: "Até que ponto você experimentou sentimentos de **tristeza** enquanto resolvia este problema? Exemplos de sentimentos relationados a tristeza: **angústia**, **tristeza**, **depressão**, **vergonha** e **insegurança**. Escolha 1 para 'Nem um pouco', 2 para 'Ligeiramente', 3 para 'Moderadamente', 4 para 'Bastante' e 5 para 'Extremamente'."
       options:
-        - Nem um pouco
-        - Ligeiramente
-        - Moderadamente
-        - Bastante
-        - Extremamente
+        - 1 - Nem um pouco
+        - 2 - Ligeiramente
+        - 3 - Moderadamente
+        - 4 - Bastante
+        - 5 - Extremamente
     validations:
       required: true
   - type: dropdown
     id: issue_emotions_fear
     attributes:
       label: Medo
-      description: "Até que ponto você experimentou sentimentos de **medo** enquanto resolvia este problema? Exemplos de sentimentos relationados ao medo: **susto**, **pânico**, **nervosismo**, **ansiedade**, **aflição**, **preocupação** e **apreensão**."
+      description: "Até que ponto você experimentou sentimentos de **medo** enquanto resolvia este problema? Exemplos de sentimentos relationados ao medo: **susto**, **pânico**, **nervosismo**, **ansiedade**, **aflição**, **preocupação** e **apreensão**. Escolha 1 para 'Nem um pouco', 2 para 'Ligeiramente', 3 para 'Moderadamente', 4 para 'Bastante' e 5 para 'Extremamente'."
       options:
-        - Nem um pouco
-        - Ligeiramente
-        - Moderadamente
-        - Bastante
-        - Extremamente
+        - 1 - Nem um pouco
+        - 2 - Ligeiramente
+        - 3 - Moderadamente
+        - 4 - Bastante
+        - 5 - Extremamente
     validations:
       required: true
