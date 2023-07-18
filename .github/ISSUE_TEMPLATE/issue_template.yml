@@ -46,12 +46,12 @@ body:
       value: "### Emoções"
   - type: markdown
     attributes:
-      value: "## Baseado na estrutura de emoções de Shaver et al. (acesso em https://doi.org/10.1037//0022-3514.52.6.1061)"    
+      value: "### Baseado na estrutura de emoções de Shaver et al. (acesso em https://doi.org/10.1037//0022-3514.52.6.1061)"    
   - type: dropdown
     id: issue_emotions_love
     attributes:
       label: Amor
-      description: "Até que ponto você experimentou sentimentos de amor enquanto resolvia este problema? Exemplos de sentimentos relacionados ao amor: compaixão, carinho, afeto e excitação."
+      description: "Até que ponto você experimentou sentimentos de **amor** enquanto resolvia este problema? Exemplos de sentimentos relacionados ao amor: compaixão, carinho, afeto e excitação."
       options:
         - Nem um pouco
         - Ligeiramente
