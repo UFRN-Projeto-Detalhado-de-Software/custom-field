@@ -24,9 +24,13 @@ body:
       value: "### Considere as seguintes orientações durante a verificação."
   - type: markdown
     attributes:
-      value: "* Todas as declarações não utilizadas devem ser removidas
-      * Os nomes para variáveis, parâmetros, métodos, classes, etc, devem seguir uma convenção
-      * Se um mesmo trecho de código está sendo usado mais de uma vez, deve se extrair um método ou função"
+      value: "- Todas as declarações não utilizadas devem ser removidas"
+  - type: markdown
+    attributes:
+      value: "- Os nomes para variáveis, parâmetros, métodos, classes, etc, devem seguir uma convenção"
+  - type: markdown
+    attributes:
+      value: "- Se um mesmo trecho de código está sendo usado mais de uma vez, deve se extrair um método ou função"
   - type: markdown
     attributes:
       value: "### O membro da equipe de qualidade que validar e verificar esta tarefa deve responder às questões a seguir."
