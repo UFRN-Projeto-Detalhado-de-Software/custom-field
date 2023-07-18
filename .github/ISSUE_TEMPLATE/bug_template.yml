@@ -1,60 +1,42 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
+name: Erro
+description: Criar uma nova tarefa de erro.
+labels: ["bug"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
   - type: input
-    id: contact
+    id: related_issue_id
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: Id Tarefa
+      description: "Este erro tem relação com alguma tarefa? Se sim, indique o **id** da tarefa correspondente."
     validations:
       required: false
   - type: textarea
-    id: what-happened
+    id: bug_description
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: Descrição
+      description: Por favor, descreva o erro.
     validations:
       required: true
   - type: dropdown
-    id: version
+    id: bug_severity
     attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: Severidade
+      description: "Qual o grau de severidade do erro? Indique 1 para Baixo, 2 para Médio e 3 para Alto."
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - 1 - Baixo
+        - 2 - Médio
+        - 3 - Alto
     validations:
       required: true
   - type: dropdown
-    id: browsers
+    id: bug_estimation
     attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
+      label: Estimativa (horas)
+      description: Quantas horas você estima para resolver este erro? Escolha entre 1, 2, 3, 5 e 8 horas.
       options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+        - 1 hora
+        - 2 horas
+        - 3 horas
+        - 5 horas
+        - 8 horas
+    validations:
+      required: true

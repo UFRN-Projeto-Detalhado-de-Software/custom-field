@@ -1,6 +1,6 @@
 name: Tarefa
-description: Criar uma nova tarefa
-labels: ['enhancement']
+description: Criar uma nova tarefa.
+labels: ["enhancement"]
 body:
   - type: textarea
     id: issue_description
@@ -46,7 +46,7 @@ body:
       value: "### Emoções"
   - type: markdown
     attributes:
-      value: "### Baseado na estrutura de emoções de Shaver et al. (acesso em https://doi.org/10.1037//0022-3514.52.6.1061)"    
+      value: "### Baseado na estrutura de emoções de Shaver et al. (acesso em https://doi.org/10.1037//0022-3514.52.6.1061)"
   - type: dropdown
     id: issue_emotions_love
     attributes:

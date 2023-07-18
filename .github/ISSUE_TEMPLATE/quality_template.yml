@@ -1,19 +1,19 @@
-name: Controle de Qualidade
-description: Criar uma nova tarefa de controle de qualidade
-labels: ['quality']
+name: Teste
+description: Criar uma nova tarefa de controle de qualidade.
+labels: ["quality"]
 body:
   - type: input
     id: related_issue_id
     attributes:
       label: Id Tarefa
-      description: Indique o id da tarefa correspondente, se houver.
+      description: Indique o **id** da tarefa ou bug correspondente, se houver.
     validations:
       required: false
   - type: textarea
     id: quality_description
     attributes:
       label: Descrição
-      description: Por favor, descreva a tarefa.
+      description: Por favor, descreva a tarefa de qualidade.
     validations:
       required: true
   - type: markdown
@@ -21,42 +21,42 @@ body:
       value: "## Métricas de Qualidade"
   - type: markdown
     attributes:
-      value: "### O membro da equipe de qualidade que validar e verificar esta tarefa deve responder às questões a seguir."    
+      value: "### O membro da equipe de qualidade que validar e verificar esta tarefa deve responder às questões a seguir."
   - type: dropdown
     id: issue_legilibility
     attributes:
       label: Legilibidade
-      description: O código escrito para resolver esta tarefa está legível? O código deve ser fácil de ler e entender, ter sintaxe clara, sem abreviações confusas e com um estilo de codificação consistente.
+      description: "O código escrito para resolver esta tarefa está legível? O código deve ser fácil de ler e entender, ter sintaxe clara, sem abreviações confusas e com um estilo de codificação consistente. Indique 1 para legibilidade Baixa, 2 para legibilidade Média, 3 para legibilidade Alta."
       options:
-        - Baixa
-        - Média
-        - Alta
+        - 1 - Baixa
+        - 2 - Média
+        - 3 - Alta
   - type: dropdown
     id: issue_simplicity
     attributes:
       label: Simplicidade
-      description: O código escrito para resolver esta tarefa está simples e conciso?
+      description: "O código escrito para resolver esta tarefa está simples e conciso? Indique 1 para simplicidade Baixa, 2 para simplicidade Média, 3 para simplicidade Alta."
       options:
-        - Baixa
-        - Média
-        - Alta
+        - 1 - Baixa
+        - 2 - Média
+        - 3 - Alta
   - type: dropdown
     id: issue_modularity
     attributes:
       label: Modularidade
-      description: O código escrito para resolver esta tarefa está dividido em módulos ou funções independentes? Cada função ou módulo deve ter uma responsabilidade clara e bem definida.
+      description: "O código escrito para resolver esta tarefa está dividido em módulos ou funções independentes? Cada função ou módulo deve ter uma responsabilidade clara e bem definida. Indique 1 para 'Não se aplica', 2 para modularidade Baixa, 3 para modularidade Média, 4 para modularidade Alta."
       options:
-        - Não se aplica
-        - Baixa
-        - Média
-        - Alta
+        - 1 - Não se aplica
+        - 2 - Baixa
+        - 3 - Média
+        - 4 - Alta
   - type: dropdown
     id: issue_confiability
     attributes:
       label: Confiabilidade
-      description: O código escrito para resolver esta tarefa lida adequadamente com erros e exceções? As exceções devem retornar mensagens claras e informativas quando ocorrerem.
+      description: "O código escrito para resolver esta tarefa lida adequadamente com erros e exceções? As exceções devem retornar mensagens claras e informativas quando ocorrerem. Indique 1 para 'Não se aplica', 2 para confiabilidade Baixa, 3 para confiabilidade Média, 4 para confiabilidade Alta."
       options:
-        - Não se aplica
-        - Baixa
-        - Média
-        - Alta
+        - 1 - Não se aplica
+        - 2 - Baixa
+        - 3 - Média
+        - 4 - Alta
