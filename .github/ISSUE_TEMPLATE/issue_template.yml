@@ -48,7 +48,7 @@ body:
     id: issue_emotions_love
     attributes:
       label: Amor
-      description: Até que ponto você experimentou sentimentos de amor enquanto resolvia este problema? Sentimentos relacionados ao amor: compaixão, carinho, afeto e excitação.
+      description: "Até que ponto você experimentou sentimentos de amor enquanto resolvia este problema? Sentimentos relacionados ao amor: compaixão, carinho, afeto e excitação."
       options:
         - Nem um pouco
         - Ligeiramente
