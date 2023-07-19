@@ -46,7 +46,7 @@ body:
       value: "## Emoções"
   - type: markdown
     attributes:
-      value: "### Baseado na estrutura de emoções de Shaver et al. (disponível em https://doi.org/10.1037//0022-3514.52.6.1061)"
+      value: "### Ao final do desenvolvimento da tarefa, indique as emoções a seguir baseado na estrutura de emoções de Shaver et al. (disponível em https://doi.org/10.1037//0022-3514.52.6.1061)"
   - type: markdown
     attributes:
       value: "### Por favor, indique as emoções baseado em caráter pessoal, não necessariamente (mas também) relacionado à tarefa. Considere o que está sentindo no momento."
