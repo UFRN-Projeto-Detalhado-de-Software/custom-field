@@ -33,6 +33,24 @@ body:
       value: "- Se um mesmo trecho de código está sendo usado mais de uma vez, deve se extrair um método ou função"
   - type: markdown
     attributes:
+      value: "- Verifique se o código esta claro de forma a ser entendido por outros desenvolvedores"
+  - type: markdown
+    attributes:
+      value: "- Sempre que adequado, o tratamento de exceção deve ser implementado"
+  - type: markdown
+    attributes:
+      value: "- Os métodos ou funções devem ter uma única responsabilidade e usar pouco código (no máximo 50 linhas)"
+  - type: markdown
+    attributes:
+      value: "- É boa prática escrever comentários para melhorar legibildade do código"
+  - type: markdown
+    attributes:
+      value: "- Se aplicável, os modificadores de acesso devem ser utilizados corretamente"
+  - type: markdown
+    attributes:
+      value: ""
+  - type: markdown
+    attributes:
       value: "### O membro da equipe de qualidade que validar e verificar esta tarefa deve responder às questões a seguir."
   - type: dropdown
     id: issue_legilibility
