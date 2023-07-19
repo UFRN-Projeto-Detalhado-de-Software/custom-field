@@ -48,9 +48,6 @@ body:
       value: "- Se aplicável, os modificadores de acesso devem ser utilizados corretamente"
   - type: markdown
     attributes:
-      value: ""
-  - type: markdown
-    attributes:
       value: "### O membro da equipe de qualidade que validar e verificar esta tarefa deve responder às questões a seguir."
   - type: dropdown
     id: issue_legilibility
