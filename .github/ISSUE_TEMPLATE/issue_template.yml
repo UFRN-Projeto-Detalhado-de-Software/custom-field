@@ -9,35 +9,29 @@ body:
       description: Por favor, descreva a tarefa.
     validations:
       required: true
-  - type: dropdown
+  - type: input
     id: issue_estimation
     attributes:
-      label: Estimativa (horas)
-      description: Quantas horas você estima para terminar esta tarefa? Escolha entre 1, 2, 3, 5 e 8 horas.
-      options:
-        - 1 hora
-        - 2 horas
-        - 3 horas
-        - 5 horas
-        - 8 horas
+      label: Estimativa (em horas; apenas inteiros)
+      description: Quantas horas você estima para terminar esta tarefa?
     validations:
       required: true
   - type: input
     id: issue_time_spent
     attributes:
-      label: Tempo Gasto (horas)
+      label: Tempo Gasto (em horas; apenas inteiros)
       description: Quantas horas você gastou (aproximadamente) para terminar esta tarefa?
     validations:
       required: false
   - type: dropdown
     id: issue_complexity
     attributes:
-      label: Complexidade
+      label: Complexidade (escolha 1 para Baixa, 2 para Média e 3 para Alta)
       description: Quão complexa é esta tarefa? Escolha 1 para Baixa, 2 para Média e 3 para Alta.
       options:
-        - 1 - Baixa
-        - 2 - Média
-        - 3 - Alta
+        - 1
+        - 2
+        - 3
     validations:
       required: true
   - type: markdown
