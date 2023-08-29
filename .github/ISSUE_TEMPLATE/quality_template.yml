@@ -33,7 +33,7 @@ body:
       value: "- Se um mesmo trecho de código está sendo usado mais de uma vez, deve se extrair um método ou função"
   - type: markdown
     attributes:
-      value: "- Verifique se o código esta claro de forma a ser entendido por outros desenvolvedores"
+      value: "- Verifique se o código está claro de forma a ser entendido por outros desenvolvedores"
   - type: markdown
     attributes:
       value: "- Sempre que adequado, o tratamento de exceção deve ser implementado"
