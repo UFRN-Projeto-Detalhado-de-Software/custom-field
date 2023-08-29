@@ -52,47 +52,47 @@ body:
   - type: dropdown
     id: issue_legilibility
     attributes:
-      label: Legilibidade
+      label: Legilibidade (indique 1 para Baixa, 2 para Média, 3 para Alta)
       description: "O código escrito para resolver esta tarefa está legível? O código deve ser fácil de ler e entender, ter sintaxe clara, sem abreviações confusas e com um estilo de codificação consistente. Indique 1 para legibilidade Baixa, 2 para legibilidade Média, 3 para legibilidade Alta."
       options:
-        - 1 - Baixa
-        - 2 - Média
-        - 3 - Alta
+        - 1
+        - 2
+        - 3
   - type: dropdown
     id: issue_simplicity
     attributes:
-      label: Simplicidade
+      label: Simplicidade (indique 1 para Baixa, 2 para Média, 3 para Alta)
       description: "O código escrito para resolver esta tarefa está simples e conciso? Indique 1 para simplicidade Baixa, 2 para simplicidade Média, 3 para simplicidade Alta."
       options:
-        - 1 - Baixa
-        - 2 - Média
-        - 3 - Alta
+        - 1
+        - 2
+        - 3
   - type: dropdown
     id: issue_modularity
     attributes:
-      label: Modularidade
+      label: Modularidade (indique 1 para Não se Aplica, 2 para Baixa, 3 para Média, 4 para Alta)
       description: "O código escrito para resolver esta tarefa está dividido em módulos ou funções independentes? Cada função ou módulo deve ter uma responsabilidade clara e bem definida. Indique 1 para 'Não se aplica', 2 para modularidade Baixa, 3 para modularidade Média, 4 para modularidade Alta."
       options:
-        - 1 - Não se aplica
-        - 2 - Baixa
-        - 3 - Média
-        - 4 - Alta
+        - 1
+        - 2
+        - 3
+        - 4
   - type: dropdown
     id: issue_confiability
     attributes:
-      label: Confiabilidade
+      label: Confiabilidade (indique 1 para Não se Aplica, 2 para Baixa, 3 para Média, 4 para Alta)
       description: "O código escrito para resolver esta tarefa lida adequadamente com erros e exceções? As exceções devem retornar mensagens claras e informativas quando ocorrerem. Indique 1 para 'Não se aplica', 2 para confiabilidade Baixa, 3 para confiabilidade Média, 4 para confiabilidade Alta."
       options:
-        - 1 - Não se aplica
-        - 2 - Baixa
-        - 3 - Média
-        - 4 - Alta
+        - 1
+        - 2
+        - 3
+        - 4
   - type: dropdown
     id: issue_overall_quality
     attributes:
-      label: Qualidade Geral
+      label: Qualidade Geral (indique 1 para Baixa, 2 para Média, 3 para Alta)
       description: "Qual a qualidade geral da tarefa ou bug verificado? Indique 1 para qualidade Baixa, 2 para qualidade Média, 3 para qualidade Alta."
       options:
-        - 1 - Baixa
-        - 2 - Média
-        - 3 - Alta
+        - 1
+        - 2
+        - 3
