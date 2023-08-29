@@ -33,7 +33,7 @@ body:
       label: Estimativa (em horas; apenas inteiros)
       description: Quantas horas você estima para resolver este erro?
     validations:
-      required: true
+      required: false
   - type: input
     id: issue_time_spent
     attributes:
