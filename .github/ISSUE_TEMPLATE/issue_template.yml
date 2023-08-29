@@ -15,7 +15,7 @@ body:
       label: Estimativa (em horas; apenas inteiros)
       description: Quantas horas você estima para terminar esta tarefa?
     validations:
-      required: true
+      required: false
   - type: input
     id: issue_time_spent
     attributes:
@@ -33,7 +33,7 @@ body:
         - 2
         - 3
     validations:
-      required: true
+      required: false
   - type: markdown
     attributes:
       value: "## Ao concluir o desenvolvimento desta tarefa, responda:"
