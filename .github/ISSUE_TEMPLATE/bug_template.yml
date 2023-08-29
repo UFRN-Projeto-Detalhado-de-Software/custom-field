@@ -40,6 +40,19 @@ body:
         - 8 horas
     validations:
       required: true
+  - type: dropdown
+    id: issue_time_spent
+    attributes:
+      label: Tempo Gasto (horas)
+      description: Quantas horas você gastou (aproximadamente) para terminar esta tarefa? Escolha entre 1, 2, 3, 5 e 8 horas.
+      options:
+        - 1 hora
+        - 2 horas
+        - 3 horas
+        - 5 horas
+        - 8 horas
+    validations:
+      required: false
   - type: markdown
     attributes:
       value: "## Ao concluir o desenvolvimento desta tarefa de erro, responda:"
